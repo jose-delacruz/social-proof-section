@@ -1,0 +1,20 @@
+// COLORS
+
+//Primary
+$very-dark-magenta: #502050;
+$soft-pink: #ee68a4;
+
+// Neutral
+$dark-grayish-magenta: #937b92;
+$light-grayish-magenta: #f7f2f7;
+$white: #ffffff;
+
+// TYPOGRAPHY
+$default-font-size: 15px;
+$default-font-type: 'Spartan',
+sans-serif;
+
+body {
+  font-size: $default-font-size;
+  font-family: $default-font-type;
+}
