@@ -40,3 +40,47 @@
     margin-left: 0.5rem;
   }
 }
+
+// Testimonials
+.testimonials--one {
+  margin: 3em auto;
+  width: 70%;
+  background-color: $very-dark-magenta;
+  padding: 2rem 0;
+  padding-bottom: 1rem;
+  color: $white;
+  border-radius: 8px;
+
+
+  .user {
+    display: flex;
+    // changes image back to normal instead of stretching when using flex since stretch is default
+    align-items: center;
+
+
+  }
+
+  .user-info {
+    margin-left: 2em;
+    margin-top: -2em;
+
+    p {
+      margin-bottom: -10px;
+      color: $white
+    }
+
+    .verified {
+      color: $soft-pink;
+    }
+  }
+
+  img {
+    border-radius: 50%;
+    width: 10%;
+    margin-left: 2.4rem;
+  }
+
+  blockquote {
+    text-align: left;
+  }
+}

@@ -15,6 +15,10 @@ $default-font-size: 15px;
 $default-font-type: 'Spartan',
 sans-serif;
 
+* {
+  box-sizing: border-box;
+}
+
 
 body {
   font-size: $default-font-size;

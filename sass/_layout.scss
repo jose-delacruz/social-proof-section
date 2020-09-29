@@ -4,14 +4,20 @@ body {
 }
 
 .container {
-  max-width: 345px;
+  // max-width: 345px;
   width: 100%;
   margin: 0 auto;
 }
 
 .rating__ratings {
+  // max-width: 345px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.testimonials {
+  // max-width: 345px;
+  width: 100%;
 }
