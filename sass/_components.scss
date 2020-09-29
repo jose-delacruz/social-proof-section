@@ -1,0 +1,42 @@
+// Rating
+.rating__intro {
+  text-align: center;
+  padding: .5em 0em;
+  width: 100%;
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h3 {
+    color: $gray;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+}
+
+.rating__ratings--one,
+.rating__ratings--two,
+.rating__ratings--three {
+  width: 70%;
+  background: $light-grayish-magenta;
+  padding: 0.1em 5em;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 1em;
+
+  p {
+    font-weight: 700;
+  }
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: .5rem;
+
+  img {
+    margin-left: 0.5rem;
+  }
+}

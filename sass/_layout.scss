@@ -1,0 +1,17 @@
+body {
+  background: url(../images/bg-pattern-top-mobile.svg) 50%/cover no-repeat;
+
+}
+
+.container {
+  max-width: 345px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.rating__ratings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
