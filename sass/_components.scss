@@ -18,7 +18,7 @@
 .rating__ratings--one,
 .rating__ratings--two,
 .rating__ratings--three {
-  width: 70%;
+  width: 90%;
   background: $light-grayish-magenta;
   padding: 0.1em 5em;
   border-radius: 8px;
@@ -27,6 +27,7 @@
 
   p {
     font-weight: 700;
+    font-size: 0.8rem;
   }
 }
 
@@ -42,9 +43,11 @@
 }
 
 // Testimonials
-.testimonials--one {
+.testimonials--one,
+.testimonials--two,
+.testimonials--three {
   margin: 3em auto;
-  width: 70%;
+  width: 90%;
   background-color: $very-dark-magenta;
   padding: 2rem 0;
   padding-bottom: 1rem;
@@ -76,7 +79,7 @@
 
   img {
     border-radius: 50%;
-    width: 10%;
+    width: 15%;
     margin-left: 2.4rem;
   }
 

@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-size: 15px;
+  font-family: "Spartan", sans-serif;
+  color: #502050; }
+
+.rating__intro {
+  text-align: center;
+  padding: .5em 0em;
+  width: 100%; }
+  .rating__intro h1 {
+    font-size: 2em; }
+  .rating__intro h3 {
+    color: #808080;
+    line-height: 1.5;
+    font-weight: 400; }
+
+.rating__ratings--one,
+.rating__ratings--two,
+.rating__ratings--three {
+  width: 90%;
+  background: #f7f2f7;
+  padding: 0.1em 5em;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 1em; }
+  .rating__ratings--one p,
+  .rating__ratings--two p,
+  .rating__ratings--three p {
+    font-weight: 700;
+    font-weight: 0.8rem; }
+
+.stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: .5rem; }
+  .stars img {
+    margin-left: 0.5rem; }
+
+.testimonials--one {
+  margin: 3em auto;
+  width: 90%;
+  background-color: #502050;
+  padding: 2rem 0;
+  padding-bottom: 1rem;
+  color: #ffffff;
+  border-radius: 8px; }
+  .testimonials--one .user {
+    display: flex;
+    align-items: center; }
+  .testimonials--one .user-info {
+    margin-left: 2em;
+    margin-top: -2em; }
+    .testimonials--one .user-info p {
+      margin-bottom: -10px;
+      color: #ffffff; }
+    .testimonials--one .user-info .verified {
+      color: #ee68a4; }
+  .testimonials--one img {
+    border-radius: 50%;
+    width: 10%;
+    margin-left: 2.4rem; }
+  .testimonials--one blockquote {
+    text-align: left; }
+
+body {
+  background: url(../images/bg-pattern-top-mobile.svg) 50%/cover no-repeat; }
+
+.container {
+  width: 90%;
+  margin: 0 auto; }
+
+.rating__ratings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.testimonials {
+  width: 100%; }

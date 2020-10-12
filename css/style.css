@@ -20,7 +20,7 @@ body {
 .rating__ratings--one,
 .rating__ratings--two,
 .rating__ratings--three {
-  width: 70%;
+  width: 90%;
   background: #f7f2f7;
   padding: 0.1em 5em;
   border-radius: 8px;
@@ -29,7 +29,8 @@ body {
   .rating__ratings--one p,
   .rating__ratings--two p,
   .rating__ratings--three p {
-    font-weight: 700; }
+    font-weight: 700;
+    font-size: 0.8rem; }
 
 .stars {
   display: flex;
@@ -39,37 +40,51 @@ body {
   .stars img {
     margin-left: 0.5rem; }
 
-.testimonials--one {
+.testimonials--one,
+.testimonials--two,
+.testimonials--three {
   margin: 3em auto;
-  width: 70%;
+  width: 90%;
   background-color: #502050;
   padding: 2rem 0;
   padding-bottom: 1rem;
   color: #ffffff;
   border-radius: 8px; }
-  .testimonials--one .user {
+  .testimonials--one .user,
+  .testimonials--two .user,
+  .testimonials--three .user {
     display: flex;
     align-items: center; }
-  .testimonials--one .user-info {
+  .testimonials--one .user-info,
+  .testimonials--two .user-info,
+  .testimonials--three .user-info {
     margin-left: 2em;
     margin-top: -2em; }
-    .testimonials--one .user-info p {
+    .testimonials--one .user-info p,
+    .testimonials--two .user-info p,
+    .testimonials--three .user-info p {
       margin-bottom: -10px;
       color: #ffffff; }
-    .testimonials--one .user-info .verified {
+    .testimonials--one .user-info .verified,
+    .testimonials--two .user-info .verified,
+    .testimonials--three .user-info .verified {
       color: #ee68a4; }
-  .testimonials--one img {
+  .testimonials--one img,
+  .testimonials--two img,
+  .testimonials--three img {
     border-radius: 50%;
-    width: 10%;
+    width: 15%;
     margin-left: 2.4rem; }
-  .testimonials--one blockquote {
+  .testimonials--one blockquote,
+  .testimonials--two blockquote,
+  .testimonials--three blockquote {
     text-align: left; }
 
 body {
   background: url(../images/bg-pattern-top-mobile.svg) 50%/cover no-repeat; }
 
 .container {
-  width: 100%;
+  width: 90%;
   margin: 0 auto; }
 
 .rating__ratings {
@@ -80,3 +95,9 @@ body {
 
 .testimonials {
   width: 100%; }
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 900px; }
+  .rating {
+    display: flex; } }
